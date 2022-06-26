@@ -1,6 +1,6 @@
-# Getting Started with K8S Dashboard
+# K8S Dashboard Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+K8S Dashboard client is a react client that consumes the [K8S Dashboard API](https://github.com/k8sdash/k8s-dashboard-api)
 
 ## Available Scripts
 
