@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:14 AS builder
 WORKDIR /app
-COPY k8s-dashboard-client .
+COPY . .
 #RUN npm install react-scripts -g --silent
 RUN yarn install
 RUN yarn run build
