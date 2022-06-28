@@ -317,7 +317,7 @@ export default class App extends Component {
     }
 
     async populateClusterData() {
-        const response = await fetch(this.getBackendUrl() + '/api/v1/k8scluster/lightroutes');
+        const response = await fetch(this.getBackendUrl() + '/api/v1/k8scluster/lightroutesgrouped');
         const data = await response.json();
         this.setState({ lightroutes: data, loading: false });
     }
