@@ -9,8 +9,25 @@ kubectl apply -f https://raw.githubusercontent.com/k8sdash/k8s-dashboard-charts/
 
 ![K8S dashboard React Client](https://github.com/k8sdash/k8s-dashboard-www-static/raw/main/src/k8s-dashboard-grid.gif)
 
-### Before you begin
+## Installation
+
 #### Prerequisites
 * [K8S Dashboard API](https://github.com/k8sdash/k8s-dashboard-api)
 * Kubernetes 1.19+
 * Preferably an nginx ingress 
+
+## Technologies
+### Code Base
+* React
+* MaterialUI
+* SignalR
+* Docker
+
+### CICD
+* GitHub Actions
+* SonarCloud.io
+* Docker
+* Docker Hub
+
+## Contributing
+GitHub pull requests are welcome!
