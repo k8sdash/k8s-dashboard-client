@@ -18,10 +18,11 @@ kubectl apply -f https://raw.githubusercontent.com/k8sdash/k8s-dashboard-charts/
 
 ## Technologies
 ### Code Base
-* React
-* MaterialUI
-* SignalR
-* Docker
+* [React](https://reactjs.org/)
+* [MaterialUI](https://mui.com/)
+* [SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr)
+* [ag-grid](https://www.ag-grid.com/react-data-grid/)
+* [Docker](https://www.docker.com/)
 
 ### CICD
 * GitHub Actions
