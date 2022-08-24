@@ -1,6 +1,7 @@
 import React from 'react';
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
+import { CellRendererIngress } from './cell=renderer=ingress';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
 export const GridLightRoutes = ({
@@ -42,6 +43,9 @@ export const GridLightRoutes = ({
                     onGridReady={onGridReady}
                     onFirstDataRendered={onFirstDataRendered}
                     rowData={lightRoutes}
+                    frameworkComponents={{
+                        cellRendererIngress: CellRendererIngress,
+                    }}
                     getRowId={getRowId}
                 >
                     <AgGridColumn field="node"></AgGridColumn>
@@ -52,7 +56,7 @@ export const GridLightRoutes = ({
                     <AgGridColumn field="podIp"></AgGridColumn>
                     <AgGridColumn field="podPort"></AgGridColumn>
                     <AgGridColumn field="service"></AgGridColumn>
-                    <AgGridColumn field="ingress"></AgGridColumn>
+                    <AgGridColumn field="ingress" cellRenderer="cellRendererIngress"></AgGridColumn>
                     <AgGridColumn field="image"></AgGridColumn>
                 </AgGridReact>
             </div>
