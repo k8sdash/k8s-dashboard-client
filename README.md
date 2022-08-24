@@ -1,6 +1,6 @@
 # K8S Dashboard Client
 
-K8S Dashboard is a react client that consumes the [K8S Dashboard API](https://github.com/k8sdash/k8s-dashboard-api)
+K8S Dashboard client is a lightweight react webapp that consumes the [K8S Dashboard API](https://github.com/k8sdash/k8s-dashboard-api)
 
 ## TL;DR
 ```
