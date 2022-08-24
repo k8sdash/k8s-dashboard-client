@@ -17,7 +17,7 @@ export class CellRendererIngress extends React.Component
 
     static getLinkToDisplay(params) {
         if (params && params.data)
-            return 'https://' + params.data.name;
+            return 'https://' + params.data.ingress;
         return '';
     }    
 }    
