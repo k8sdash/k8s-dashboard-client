@@ -1,7 +1,7 @@
 import React from 'react';
 import { AgGridColumn, AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
-import { CellRendererIngress } from './cell=renderer=ingress';
+import { CellRendererIngress } from './cell-renderer-ingress.jsx';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 
 export const GridLightRoutes = ({

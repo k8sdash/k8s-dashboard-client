@@ -1,9 +1,5 @@
 import React from 'react';
-export class CellRendererIngress extends React.Component<{
-},
-    {
-        link: string,
-    }>
+export class CellRendererIngress extends React.Component
 {
     constructor(props){
         super(props);
@@ -15,7 +11,7 @@ export class CellRendererIngress extends React.Component<{
 
     render() {
         return (
-            <div><a href={this.state.link} target="_blank">{this.state.link}</a></div>
+            <div><a href={this.state.link} target="_blank" rel="noreferrer">{this.state.link}</a></div>
         );
     }
 
