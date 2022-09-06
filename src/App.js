@@ -131,6 +131,14 @@ export default class App extends Component {
 
     onFirstDataRendered(params) {
         console.log("first data rendered");
+        var kubeSystemFilter = {
+            nameSpace: {
+                type: 'notEqual',
+                filter: 'kube-system',
+            }
+        };
+        params.api.setFilterModel(kubeSystemFilter);
+        console.log("kubeSystemFilter model was applied");
         params.columnApi.autoSizeAllColumns();
     }
 
