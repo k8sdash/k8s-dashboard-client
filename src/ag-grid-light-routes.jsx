@@ -48,16 +48,16 @@ export const GridLightRoutes = ({
                     }}
                     getRowId={getRowId}
                 >
-                    <AgGridColumn field="node"></AgGridColumn>
-                    <AgGridColumn field="nodeIp"></AgGridColumn>
                     <AgGridColumn field="nameSpace"></AgGridColumn>
                     <AgGridColumn field="pod"></AgGridColumn>
                     <AgGridColumn field="podPhase" cellClassRules={cellClassRulesPodPhase}></AgGridColumn>
                     <AgGridColumn field="podIp"></AgGridColumn>
-                    <AgGridColumn field="podPort"></AgGridColumn>
                     <AgGridColumn field="service"></AgGridColumn>
                     <AgGridColumn field="ingress" cellRenderer="cellRendererIngress"></AgGridColumn>
                     <AgGridColumn field="image"></AgGridColumn>
+                    <AgGridColumn field="podPort"></AgGridColumn>
+                    <AgGridColumn field="node"></AgGridColumn>
+                    <AgGridColumn field="nodeIp"></AgGridColumn>
                 </AgGridReact>
             </div>
         </div>
