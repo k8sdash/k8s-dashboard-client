@@ -4,7 +4,7 @@ K8S Dashboard client is a lightweight react webapp that consumes the [K8S Dashbo
 
 ## TL;DR
 ```
-kubectl apply -f https://raw.githubusercontent.com/k8sdash/k8s-dashboard-charts/main/deploy-k8s-kubernetes.yaml
+kubectl apply -f https://raw.githubusercontent.com/k8sdash/k8s-dashboard-charts/main/deploy-k8sdash-kubernetes.yaml
 ```
 
 ![K8S dashboard React Client](https://github.com/k8sdash/k8s-dashboard-www-static/raw/main/src/k8s-dashboard-grid.gif)
