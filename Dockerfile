@@ -6,7 +6,8 @@ RUN yarn install
 RUN yarn run build
 
 FROM mhart/alpine-node:14
-RUN adduser k8sdash
+RUN addgroup -S k8sdash
+RUN adduser -S k8sdash -G k8sdash
 RUN yarn global add serve
 WORKDIR /app
 COPY --from=builder /app/build .
