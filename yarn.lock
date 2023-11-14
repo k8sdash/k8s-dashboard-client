@@ -1892,9 +1892,9 @@
     react-is "^16.8.0 || ^17.0.0"
 
 "@microsoft/signalr@^7.0.0":
-  version "7.0.12"
-  resolved "https://registry.yarnpkg.com/@microsoft/signalr/-/signalr-7.0.12.tgz#855ce6d677c809d5fb08da2af5c2bec42228a0f9"
-  integrity sha512-k1Xu+a73PsWgHwHDm6ctHwHTBnlqCzq7L33cbxdWhj90AGDFpxDSzaGCkZDoJFNHveUetix65zIWiazMvmMg3w==
+  version "7.0.14"
+  resolved "https://registry.yarnpkg.com/@microsoft/signalr/-/signalr-7.0.14.tgz#97551d68f09bb0ae063ffec738f7398f29d297ff"
+  integrity sha512-dnS7gSJF5LxByZwJaj82+F1K755ya7ttPT+JnSeCBef3sL8p8FBkHePXphK8NSuOquIb7vsphXWa28A+L2SPpw==
   dependencies:
     abort-controller "^3.0.0"
     eventsource "^2.0.2"
@@ -8167,9 +8167,9 @@ punycode@^2.1.0:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 punycode@^2.1.1:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.0.tgz#f67fa67c94da8f4d0cfff981aee4118064199b8f"
-  integrity sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
 q@^1.1.2:
   version "1.5.1"
